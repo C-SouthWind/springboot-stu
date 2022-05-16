@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.6.4</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.chj</groupId>
+    <artifactId>springBootStu</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>springboot-01</module>
+        <module>springboot-02-config</module>
+        <module>springboot-02-config2</module>
+        <module>springboot-03-web</module>
+        <module>springboot-04-webDev</module>
+        <module>springboot-05-webdata</module>
+        <module>springboot-06-webMybatis</module>
+        <module>springboot-07-webswagger2</module>
+        <module>springboot-08-webAsynchronous</module>
+        <module>springboot-09-webMail</module>
+        <module>springboot-10-timedTask</module>
+        <module>springboot-11-redis</module>
+        <module>springboot-12-shiro</module>
+    </modules>
+
+
+</project>

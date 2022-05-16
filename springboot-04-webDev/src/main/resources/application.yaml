@@ -1,0 +1,17 @@
+
+spring:
+  #关闭模板引擎的缓存
+  thymeleaf:
+    cache: false
+  #配置国际化
+  messages:
+    basename: i18n.login
+
+
+#虚拟目录 访问localhost:8080/chj 代替localhost:8080/
+server:
+  servlet:
+    context-path: /chj
+
+
+

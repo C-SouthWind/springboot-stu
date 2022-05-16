@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://115.159.191.57:3306/zln?useSSL=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+    username: root
+    password: chj0526
+    type: com.alibaba.druid.pool.DruidDataSource
+    filters: stat,wall,log4j2
+
+#整合mabatis
+mybatis:
+  #别名包
+  type-aliases-package: com.chj.pojo
+  #mybatis地址
+  mapper-locations: classpath:mapper/*.xml

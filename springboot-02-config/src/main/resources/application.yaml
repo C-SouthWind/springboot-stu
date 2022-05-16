@@ -1,0 +1,19 @@
+person:
+  name: chj
+  age: 20
+  happy: true
+  birthl: 2022/05/26
+  maps: {k1: v1,k2: v2}
+  lists:
+    - code
+    - music
+    - girl
+  dog:
+    name: 旺财
+    age: 3
+
+
+cat:
+  name: 猫猫
+  age: 3
+  email: 1298365022

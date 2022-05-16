@@ -1,0 +1,7 @@
+# 配置文件到底能写什么？ ---联系--- spring.factories
+# 在我们这配置文件中能配置的东西，都存在一个固有的规律
+# xxxAutoConfiguration 默认值： xxxProperties 和配置文件绑定，我们就可以使用自定义的配置了
+
+
+#可以通过debug: true 来查看，那些自动配置类生效，那些没有生效
+debug: true
